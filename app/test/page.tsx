@@ -8,6 +8,6 @@ export default function Home() {
     const router = useRouter();
 
     return (
-      <Button  onClick={() => router.push('/test')}>Go to /test</Button>
+      <Button  onClick={() => router.push('/')}>Go to /</Button>
     );
 }
